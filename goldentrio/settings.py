@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'IST'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -118,9 +118,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),"goldentrio","app", "static-cdn")
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "goldentrio", "app", "static-cdn")
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(os.path.dirname(BASE_DIR),"goldentrio","app","static")
+    os.path.join(os.path.dirname(BASE_DIR), "goldentrio", "app", "static")
     #'/var/www/static',
-    ]
+]
