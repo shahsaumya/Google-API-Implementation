@@ -1,12 +1,10 @@
-# Restaurant Picker Web App
-My first venture into web development, this web app allows users to choose the cuisine of food in a restaurant they'd like to eat at.
-
-The web app also displayes results of the given restaurants such as contact number, price, menu etc. It uses Django as a backend with integration of Google Places API.
+# Software for the Aged
+Built for KJSCE Hackathon, this web app catered to the aged. A Django powered backend and integrations with various Google APIs such as Google Places, Google Sign-In and Google Calendar to help the aged set reminders for medicines or find nearby amenities such as hospitals, police stations etc. 
 
 ## Tech Stack
 - **Django Backend**
 - **HTML, CSS and Bootstrap**
-- **Google Places API Integration**
+- **Google Places and Google Calendar API Integration**
 
 ## Screenshots
 ![Home Page](https://i.imgur.com/WtbdLPu.png)
