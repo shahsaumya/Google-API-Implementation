@@ -28,3 +28,8 @@ Built for KJSCE Hackathon 2016, this web app catered to the aged. A Django power
 
 ![Upcoming Events](https://i.imgur.com/RBK0nwP.png)
 *Upcoming events*
+
+## How to run the web application
+1. Clone the repository
+2. Install the dependencies with `pip install -r requirements.txt`. Use `python3` for your virtual environment. *(Note: It is recommended to use a Python virtual environment, so as to not interfere with your system installed libraries. The link on how to work with virtual environments [here](https://python-docs.readthedocs.io/en/latest/).)*
+3. Run the command `python3 manage.py runserver`
